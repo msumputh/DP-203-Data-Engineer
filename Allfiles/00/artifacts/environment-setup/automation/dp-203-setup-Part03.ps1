@@ -1,6 +1,7 @@
-﻿Set-ExecutionPolicy Unrestricted
+#﻿Set-ExecutionPolicy Unrestricted
 			
-cd C:\dp-203\data-engineering-ilt-deployment\Allfiles\00\artifacts\environment-setup\automation\
+#cd /dp-203\data-engineering-ilt-deployment\Allfiles\00\artifacts\environment-setup\automation\
+Write-Host "You should be on this path: dp-203\data-engineering-ilt-deployment\Allfiles\00\artifacts\environment-setup\automation\"
 
 # Import modules
 Import-Module Az.CosmosDB
